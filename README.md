@@ -1,12 +1,38 @@
-# React + Vite
+# 🍳 Dev Chef
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O **Dev Chef** é um assistente culinário interativo que ajuda pessoas a criarem receitas de forma simples, clara e divertida.  
+O projeto foi desenvolvido em **JavaScript**, com **API em Node.js/Express** no backend e **React + TailwindCSS** no frontend, integrado com a **API da OpenAI**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Funcionalidades
 
-## Expanding the ESLint configuration
+- Receber perguntas sobre receitas a partir de ingredientes.
+- Respostas claras e organizadas em formato de receita:
+  - Nome da receita
+  - Lista de ingredientes
+  - Passo a passo numerado
+  - Dicas adicionais
+- Experiência amigável para iniciantes na cozinha.
+- Interface moderna e responsiva usando React + Tailwind.
+- Comunicação em tempo real entre frontend e backend.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+### **Backend (API)**
+- Node.js
+- Express.js
+- dotenv
+- OpenAI API
+
+### **Frontend (Interface)**
+- React (com Vite)
+- Tailwind CSS
+- Fetch API para integração com o backend
+
+---
+
+## 📂 Estrutura do Projeto
+
